@@ -1,0 +1,43 @@
+/*
+*
+* @author Celio Nascimento
+* @version 1.1
+*
+*/
+
+/* ================================= layout ======================== */
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif ;
+}
+
+
+/* ******************* barra de navegação **************** */
+
+
+.img-logo {
+
+	height: 80px;
+	width: 620px;
+	display: block;
+	background: url(../imagens/capa3.png)no-repeat;
+	color: transparent;
+}
+
+
+nav.navbar-vermelha {
+
+	padding: 0px 0px 25px 0px;
+	background: #8B0000 !important;
+	border: none;
+}
+
+
+#barra-navegacao {
+
+
+
+}
+
+
+.
