@@ -1,6 +1,5 @@
 <?php
 
-ech
 
 ?>
 
@@ -12,14 +11,14 @@ ech
 	<meta http-equiv="X-UA-Compatible" content="IE-edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1" >
 
-	<title>Entretenimento Londrina</title>
+	<title>Entretenimento</title>
 
 	<!------------------- Folhas de estilo ------------------------ -->
-	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css?version=12">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 
-	 
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -27,42 +26,70 @@ ech
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+
+
 </head>
 <body>
 
-</body>
+
 
 <!-- --------------------------------------------- Barra de Navegação ---------------------------------------------------- -->
 
-<nav class="navbar navbar-fixed-top navbar-inverse">
-	
 	<div class="container">
-		
-		<!-- ************** botão toggle *********************-->
-		<div class="navbar-header">
-			
 
-			<a href="index.html" class="navbar-brand">
-				<span class="img-logo"></span>
-			</a>
+		<div class="navbar-brand img-logo">Entretenimento</div>
 
-		</div>
+		<div class="row conteudo-index">
 
-		<div class="collapse navbar-collapse" id="barra-navegacao">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#">Cadastre-se</a></li>
-				<li class="divisor"></li>
-				<li><a href="#">Entrar</a></li>
-			</ul>
-		</div>
+			<div class="cadastro-login">
+
+	 			<div class="col-md-10 col-md-offset-1 login-index">
+	 				
+	 				<div class="form-group formulario-index">
+	 					<h3>Entrar</h3>
+	 					<form>
+	 						<div class="-form-login-index">
+		 						<label>Login</label>
+		 						<input type="text"  id="login-index" class="form-control" name="" required="" placeholder="Insira seu login" />
+	 						</div>
+	 						<div class="senha-index">
+		 						<label>Senha</label>
+		 						<input type="password" id="senha-index" class="form-control" name="" required="" placeholder="Insira sua senha">
+	 						</div>
+
+	 						<div class="botao-index">
+	 							<input type="submit" id="botao-index" name="" class="btn btn-primary" value="Entrar">
+	 						</div>
+	 					</form>
+	 				</div>
+	 			</div>
+	 				<div class="cadastro-index">
+	 					<div class="teste"><h3>Cadastre-se</h3></div>
+		 					<div class="row">
+		 						<div class="col-md-3 "><a href="cadastro-estabelecimento.php" class="btn btn-warning btn-custom btn-estabelecimento btn-lg">Estabelecimento</a></div></div>
+
+		 						<div class="row">
+			 					<div class="col-md-1 col-md-offset-2"> <a href="cadastro-usuario.php" class="btn btn-success btn-custom btn-lg btn-usuario">Usuário</a></div></div>
+
+		 					</div>
+		 			</div>				
+				
+ 			</div>
+	    </div>
 
 	</div><!-- ***************** /container *********************-->
 
 
-</nav>
+	<footer class="rodape-index">
+		<div class="row">
+			<div class="col-md-12 ">
+				<span>&copy;Todos os direitos reservados</span>
+			</div>
+		</div>
+	</footer>
 
 
-
+</body>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

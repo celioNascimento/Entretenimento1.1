@@ -5,39 +5,499 @@
 *
 */
 
-/* ================================= layout ======================== */
+/* ================================= layout index ======================== */
 
-body {
-	font-family: Verdana, Arial, Helvetica, sans-serif ;
+body{
+
+	background:#8B0000 !important ;
+	overflow-x: hidden;
+}
+
+.img-logo{
+	width: 330px;
+	height: 50px;
+	margin: 50px 10px 20px 400px;
+	background: url('../imagens/entretenimento.png')no-repeat;
+	background-size: contain;
+	color: transparent;
+
 }
 
 
-/* ******************* barra de navegação **************** */
+.conteudo-index{
+	
+
+	width: 100%;
+	height: 750px;
+	padding: 110px 10px 0px 320px;
+	margin-top: 50px;
+}
+
+.cadastro-login{
+
+	width: 495px;
+	height: 550px;
+	background: #fff;
+	box-shadow: 2px 2px 2px black;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	
+	
+}
+
+.login-index {
 
 
-.img-logo {
+}
 
-	height: 80px;
-	width: 620px;
-	display: block;
-	background: url(../imagens/capa3.png)no-repeat;
+.formulario-index{
+	
+	max-width: 40ch;
+	max-height: 25px;
+	margin: 0px 10px 0px 35px;
+	width: 100%;
+	height: 1px;
+}
+
+.formulario-index label{
+
 	color: transparent;
 }
+.formulario-index h3 {
+	text-align: center;
+}
+
+.-form-login-index {
+
+	font-size: 16px;
+}
+
+.botao-index{
+
+	margin:55px 130px;
+}
+
+.cadastro-index{
+
+	padding: 330px 5px 5px 10px ;
+	width: 490px;
+	height: 70px;
+	text-align: center;
+}
+
+.cadastro-index a {
 
 
-nav.navbar-vermelha {
 
-	padding: 0px 0px 25px 0px;
-	background: #8B0000 !important;
-	border: none;
 }
 
 
-#barra-navegacao {
+.btn-custom {
+
+	border-radius: 10px !important;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin:25px 20px 0px 40px;
+	
+
+}
+
+
+.rodape-index{
+
+	margin: 134px 0px 0px 0px;
+	background: white;
+	height: 40px;
+	width: 100%;
+	text-align: center;
+
+}
+
+
+/* --------------------------------- media queries -------------------------------------*/
+
+/* --------------------------------- xs < 540px -------------------------------------*/
+
+@media screen and (max-width: 540px){
+
+	body {
+	
+	}
+
+/* ------------------------------------ pagina index ----------------- */	
+
+	.img-logo{
+	width: 270px;
+	height: 30px;
+	margin: 50px 10px 20px 110px;
+	background: url('../imagens/entretenimento.png')no-repeat;
+	background-size: contain;
+
+}
+
+.conteudo-index{
+
+	width: 100%;
+	height: 750px;
+	padding: 70px 10px 0px 95px;
+	margin-top: 50px;
+}
+
+.cadastro-login{
+
+	width: 330px;
+	height: 550px;
+	background: #fff;
+	box-shadow: 2px 2px 2px black;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	
+	
+}
+
+.login-index {
+
+padding: 10px;
+
+}
+
+.formulario-index{
+	
+	max-width: 35ch;
+	max-height: 25px;
+	margin: 0px 10px 0px 15px;
+	width: 100%;
+	height: 1px;
+}
+
+.botao-index{
+
+	margin:55px 105px;
+}
+
+.cadastro-index{
+
+	padding: 240px 5px 5px 10px ;
+	width: 330px;
+	height: 70px;
+	text-align: center;
+}
+
+.btn-custom {
+
+	border-radius: 10px !important;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin:25px 20px 0px 20px;
+	
+
+}
+
+.rodape-index{
+
+	margin: 124px 0px 0px 0px;
+	background: white;
+	height: 30px;
+	width: 100%;
+
+}
+
+
+
+}
+
+/* --------------------------------- ms > 541px -------------------------------------*/
+
+@media screen and (min-width: 541px){
+
+	body {
+		
+	}
+
+	/* ------------------------------------ pagina index ----------------- */
+
+
+	.img-logo{
+	width: 280px;
+	height: 30px;
+	margin: 50px 10px 20px 196px;
+	background: url('../imagens/entretenimento.png')no-repeat;
+	background-size: contain;
+
+}
+
+.conteudo-index{
+
+	width: 100%;
+	height: 750px;
+	padding: 70px 10px 0px 155px;
+	margin-top: 50px;
+}
+
+.cadastro-login{
+
+	width: 380px;
+	height: 550px;
+	background: #fff;
+	box-shadow: 2px 2px 2px black;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+
+.login-index {
+
+padding: 10px;
+
+}
+
+
+.formulario-index{
+	
+	max-width: 42ch;
+	max-height: 25px;
+	margin: 0px 10px 0px 15px;
+	width: 100%;
+	height: 1px;
+}
+
+.botao-index{
+
+	margin:55px 135px;
+}
+
+.cadastro-index{
+
+	padding: 240px 5px 5px 65px ;
+	width: 330px;
+	height: 70px;
+	text-align: center;
+}
+
+.btn-custom {
+
+	border-radius: 10px !important;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin:25px 20px 0px 20px;
+	
+
+}
+
+.rodape-index{
+
+	margin: 124px 0px 0px 0px;
+	background: white;
+	height: 30px;
+	width: 100%;
+
+}
+
+}
+
+/* --------------------------------- ms > 767px -------------------------------------*/
+
+@media screen and (min-width: 767px){
+
+	body {
+
+		
+		
+	}
+
+	/* ------------------------------------ pagina index ----------------- */
+	.img-logo{
+	width: 300px;
+	height: 34px;
+	margin: 50px 10px 20px 225px;
+	background: url('../imagens/entretenimento.png')no-repeat;
+	background-size: contain;
+
+}
+
+.conteudo-index{
+
+	width: 100%;
+	height: 750px;
+	padding: 70px 10px 0px 180px;
+	margin-top: 50px;
+}
+
+.cadastro-login{
+
+	width: 420px;
+	height: 550px;
+	background: #fff;
+	box-shadow: 2px 2px 2px black;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	
+	
+}
+
+.formulario-index{
+	
+	max-width: 42ch;
+	max-height: 25px;
+	margin: 0px 10px 0px 28px;
+	width: 100%;
+	height: 1px;
+}
+
+.botao-index{
+
+	margin:55px 135px;
+}
+
+.cadastro-index{
+
+	padding: 240px 5px 5px 100px ;
+	width: 330px;
+	height: 70px;
+	text-align: center;
+}
 
 
 
 }
 
 
-.
+/* ------------------------------------md < 992 ----------------- */
+
+@media screen and (min-width: 992px){
+
+	body {
+
+		
+		
+	}
+
+	/* ------------------------------------ pagina index ----------------- */
+
+	.img-logo{
+	width: 300px;
+	height: 34px;
+	margin: 50px 10px 20px 340px;
+	background: url('../imagens/entretenimento.png')no-repeat;
+	background-size: contain;
+
+}
+
+.conteudo-index{
+
+	width: 100%;
+	height: 750px;
+	padding: 70px 10px 0px 290px;
+	margin-top: 50px;
+}
+
+.cadastro-login{
+
+	width: 420px;
+	height: 550px;
+	background: #fff;
+	box-shadow: 2px 2px 2px black;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	
+}
+
+.formulario-index{
+	
+	max-width: 45ch;
+	max-height: 25px;
+	margin: 0px 0px 0px 0px;
+	width: 100%;
+	height: 10px;
+}
+
+.botao-index{
+
+	margin:55px 130px;
+}
+
+.cadastro-index{
+
+	padding: 295px 5px 5px 92px ;
+	width: 330px;
+	height: 70px;
+	text-align: center;
+}
+
+
+.btn-custom {
+
+margin: 0px 55px 0px 10px;
+	border-radius: 10px !important;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin:25px 20px 0px 20px;
+	
+
+}
+
+.btn-estabelecimento{
+
+	margin-left: 35px
+}
+
+.btn-usuario {
+	margin-left: 27px
+}
+
+}
+
+/* ------------------------------------md < 1200 ----------------- */
+
+@media screen and (min-width: 1200px){
+
+	body {
+
+		
+		
+	}
+
+
+	.img-logo{
+	width: 300px;
+	height: 34px;
+	margin: 50px 10px 20px 420px;
+	background: url('../imagens/entretenimento.png')no-repeat;
+	background-size: contain;
+
+}
+
+.conteudo-index{
+
+	width: 100%;
+	height: 750px;
+	padding: 70px 10px 0px 365px;
+	margin-top: 50px;
+}
+
+.cadastro-login{
+
+	width: 420px;
+	height: 550px;
+	background: #fff;
+	box-shadow: 2px 2px 2px black;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	
+}
+
+.rodape-index{
+
+	margin: 144px 0px 0px 0px;
+	background: white;
+	height: 30px;
+	width: 100%;
+	text-align: center
+
+}
+}
