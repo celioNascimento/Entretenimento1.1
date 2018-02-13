@@ -128,9 +128,9 @@ body{
 /* ------------------------------------ pagina index ----------------- */	
 
 	.img-logo{
-	width: 270px;
-	height: 30px;
-	margin: 50px 10px 20px 110px;
+	width: 220px;
+	height: 25px;
+	margin: 30px 10px 20px 57px;
 	background: url('../imagens/entretenimento.png')no-repeat;
 	background-size: contain;
 
@@ -140,14 +140,14 @@ body{
 
 	width: 100%;
 	height: 750px;
-	padding: 70px 10px 0px 95px;
-	margin-top: 50px;
+	padding: 70px 10px 0px 15px;
+	margin-top: 15px;
 }
 
 .cadastro-login{
 
 	width: 330px;
-	height: 550px;
+	height: 510px;
 	background: #fff;
 	box-shadow: 2px 2px 2px black;
 	border-radius: 4px;
@@ -174,12 +174,13 @@ padding: 10px;
 
 .botao-index{
 
-	margin:55px 105px;
+	margin:45px 105px;
 }
+
 
 .cadastro-index{
 
-	padding: 240px 5px 5px 10px ;
+	padding: 220px 5px 5px 10px ;
 	width: 330px;
 	height: 70px;
 	text-align: center;
@@ -190,16 +191,16 @@ padding: 10px;
 	border-radius: 10px !important;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
-	margin:25px 20px 0px 20px;
+	margin:15px 20px 0px 20px;
 	
 
 }
 
 .rodape-index{
 
-	margin: 124px 0px 0px 0px;
+	margin: 169px 0px 0px 0px;
 	background: white;
-	height: 30px;
+	height: 20px;
 	width: 100%;
 
 }
@@ -220,9 +221,9 @@ padding: 10px;
 
 
 	.img-logo{
-	width: 280px;
+	width: 260px;
 	height: 30px;
-	margin: 50px 10px 20px 196px;
+	margin: 50px 10px 20px 178px;
 	background: url('../imagens/entretenimento.png')no-repeat;
 	background-size: contain;
 
@@ -232,14 +233,14 @@ padding: 10px;
 
 	width: 100%;
 	height: 750px;
-	padding: 70px 10px 0px 155px;
+	padding: 70px 10px 0px 135px;
 	margin-top: 50px;
 }
 
 .cadastro-login{
 
 	width: 380px;
-	height: 550px;
+	height: 520px;
 	background: #fff;
 	box-shadow: 2px 2px 2px black;
 	border-radius: 4px;
@@ -270,7 +271,7 @@ padding: 10px;
 
 .cadastro-index{
 
-	padding: 240px 5px 5px 65px ;
+	padding: 220px 5px 5px 65px ;
 	width: 330px;
 	height: 70px;
 	text-align: center;
@@ -290,7 +291,7 @@ padding: 10px;
 
 	margin: 124px 0px 0px 0px;
 	background: white;
-	height: 30px;
+	height: 20px;
 	width: 100%;
 
 }
@@ -475,7 +476,7 @@ margin: 0px 55px 0px 10px;
 
 	width: 100%;
 	height: 750px;
-	padding: 70px 10px 0px 365px;
+	padding: 70px 10px 0px 335px;
 	margin-top: 50px;
 }
 

@@ -14,7 +14,7 @@
 	<title>Entretenimento</title>
 
 	<!------------------- Folhas de estilo ------------------------ -->
-	<link rel="stylesheet" type="text/css" href="css/estilo.css?version=12">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 
@@ -81,11 +81,9 @@
 
 
 	<footer class="rodape-index">
-		<div class="row">
-			<div class="col-md-12 ">
+		
 				<span>&copy;Todos os direitos reservados</span>
-			</div>
-		</div>
+		
 	</footer>
 
 
