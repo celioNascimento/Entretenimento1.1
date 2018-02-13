@@ -15,13 +15,14 @@ body {
 
 .img-logo {
 
-	width: 260px;
-	height: 40px;
+	width: 167px;
+	height: 24px;	
 	background: url('../imagens/entretenimento.png')no-repeat;
 	background-size: contain;
 	display: block;
 	color: transparent;
-	margin-left: 25px;
+	margin-left: 80px;
+	margin-top: 5px;
 }
 
 nav.navbar-barra-navegacao{
@@ -45,7 +46,7 @@ nav.navbar-barra-navegacao{
 	max-width: 12ch;
 }
 
-.btn-entrar-cadastro {
+.btn-cadastrar {
 
 	margin: 55px 290px;
 }
@@ -79,12 +80,12 @@ nav.navbar-barra-navegacao{
 	.form-cadastro{
 
 	margin-top: 100px;
-	margin-left:15px;
+	margin-left:0px;
 }
 
-	.btn-entrar-cadastro {
+	.btn-cadastrar {
 
-	margin: 55px 150px;
+	margin: 55px 125px;
 }
 
 .rodape-cadastro {
@@ -110,7 +111,7 @@ nav.navbar-barra-navegacao{
 	margin-left:50px;
 }
 
-	.btn-entrar-cadastro {
+	.btn-cadastrar {
 
 	margin: 55px 190px;
 }
@@ -139,7 +140,7 @@ nav.navbar-barra-navegacao{
 	margin-left:60px;
 }
 
-	.btn-entrar-cadastro {
+	.btn-cadastrar {
 
 	margin: 55px 260px;
 }
@@ -162,7 +163,7 @@ nav.navbar-barra-navegacao{
 	margin-left:200px;
 }
 
-	.btn-entrar-cadastro {
+	.btn-cadastrar {
 
 	margin: 55px 220px;
 }
@@ -189,7 +190,7 @@ nav.navbar-barra-navegacao{
 }
 
 
-	.btn-entrar-cadastro {
+	.btn-cadastrar {
 
 	margin: 55px 270px;
 }

@@ -9,7 +9,7 @@
 
 	<!------------------- Folhas de estilo ------------------------ -->
 
-	<link rel="stylesheet" type="text/css" href="css/estilo-cadastro.css?version=12">
+	<link rel="stylesheet" type="text/css" href="css/estilo-cadastro.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 
@@ -114,7 +114,7 @@
 				</div>
 			</div><!-- ************************ /row *********************-->
 
-			<div class="btn-entrar-cadastro">
+			<div class="btn-cadastrar">
 
 				<div class="row">
 					<div class="col-md-2">
