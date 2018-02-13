@@ -3,6 +3,7 @@
 require_once('db.class.php');
 
 $usuario = $_POST['usuario'];
+$nome = $_POST['nome'];
 $email = $_POST['email'];
 $data_nascimento = $_POST['data_nascimento'];
 $endereco_usuario = $_POST['endereco_usuario'];
