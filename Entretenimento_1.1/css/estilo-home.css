@@ -1,0 +1,51 @@
+/*
+*
+* @author Celio Nascimento
+* @version 1.0
+*
+*/
+
+/* ================================= layout ======================== */
+
+body {
+
+
+}
+
+nav.navbar-vermelha {
+	background:#8B0000 !important;
+	padding: 15px;
+	border: none;
+	margin-top: 15px;
+
+}
+
+.img-logo {
+
+	width: 167px;
+	height: 24px;
+	display: block;
+	background: url('../imagens/entretenimento.png')no-repeat;
+	background-size: contain;
+	margin-top: -2px;
+
+}
+
+.divisor{
+
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin-top: 16px;
+}
+
+.navbar-toggle {
+
+    padding: 12px 10px !important;
+
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color: white !important;
+}
+
