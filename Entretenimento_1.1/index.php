@@ -1,5 +1,8 @@
 <?php
 
+// tratamento para o caso de primeiro acesso, quando a variável erro(passada via GET) não existe
+$erro = isset($_GET['erro']) ? $_GET['erro'] : 0 ;
+
 
 ?>
 
@@ -18,15 +21,43 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+	<!-- jquery - link cdn -->
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 
 
+	<script type="text/javascript">
+		
+		$(document).ready(function (){
+
+			var campo_vazio = false;
+
+			//verificar se os campos de usuário e senha foram devidamente preenchidos
+
+			$('#botao-index').click(function(){
+
+				if ($('#login-index').val() == ''){
+					$('#login-index').css({'border-color': '#A94442'});
+					campo_vazio = true;
+				}else{
+					$('#login-index').css({'border-color': '#CCC'});
+				}
+
+				if ($('#senha-index').val() == ''){
+
+					$('#senha-index').css({'border-color': '#A94442'});
+					campo_vazio = true;
+				}else{
+					$('#senha-index').css({'border-color': '#CCC'});
+				}
+
+				//o return false impede o envio do formulário
+				if (campo_vazio) return false; 
+
+			});
+
+		});
+
+	</script>
 
 </head>
 <body>
@@ -47,18 +78,27 @@
 	 				
 	 				<div class="form-group formulario-index">
 	 					<h3>Entrar</h3>
-	 					<form>
+	 					<form method="post" action="validar-acesso.php">
 	 						<div class="-form-login-index">
 		 						<label>Login</label>
-		 						<input type="text"  id="login-index" class="form-control" name="" required="" placeholder="Insira seu login" />
+		 						<input type="text"  id="login-index" class="form-control" name="usuario"  placeholder="Insira seu login" />
 	 						</div>
 	 						<div class="senha-index">
 		 						<label>Senha</label>
-		 						<input type="password" id="senha-index" class="form-control" name="" required="" placeholder="Insira sua senha">
+		 						<input type="password" id="senha-index" class="form-control" name="senha"  placeholder="Insira sua senha">
 	 						</div>
 
+	 						<?php
+
+	 							if ($erro == 1){
+
+	 								echo "<font color='#ff0000'>Usuário e/ou senha inválido(s)</font>";
+	 							}
+
+	 						?>
+
 	 						<div class="botao-index">
-	 							<input type="submit" id="botao-index" name="" class="btn btn-primary" value="Entrar">
+	 							<input type="submit" id="botao-index" name="botao-index" class="btn btn-primary" value="Entrar">
 	 						</div>
 	 					</form>
 	 				</div>

@@ -75,7 +75,7 @@ body{
 
 .botao-index{
 
-	margin:55px 130px;
+	margin:45px 130px;
 }
 
 .cadastro-index{
@@ -174,11 +174,13 @@ padding: 10px;
 
 .botao-index{
 
-	margin:45px 105px;
+	position: absolute;
+	margin:40px 105px;
 }
 
 
 .cadastro-index{
+
 
 	padding: 220px 5px 5px 10px ;
 	width: 330px;
