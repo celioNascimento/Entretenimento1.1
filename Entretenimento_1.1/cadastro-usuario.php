@@ -51,10 +51,17 @@
 			<form method="post" action="registra_usuario.php" id="form_cadastra_usuario">
 			<h3>Cadastra-se</h3>
 			<div class="row">
-				<div class="col-md-8 form-group ">
-					<label for="usuario">Nome:</label>
+
+				<div class="col-md-3 form-group ">
+					<label for="nome">Usuário:</label>
 					<input type="text" name="usuario" class="form-control" id="usuario" required="requiored">
 				</div>
+
+				<div class="col-md-5 form-group ">
+					<label for="nome">Nome:</label>
+					<input type="text" name="nome" class="form-control" id="nome" required="requiored">
+				</div>
+
 			</div><!-- ************************ /row *********************-->
 
 			<div class="row">
@@ -71,12 +78,12 @@
 
 
 			<div class="row">
-				<div class="col-md-5 form-group">
+				<div class="col-md-4 form-group">
 					<label for="endereco_usuario">Endereço:</label>			
 					<input type="text" name="endereco_usuario" class="form-control" id="endereco_usuario" required="requiored">
 				</div>
 
-				<div class="col-md-1 form-group">
+				<div class="col-md-2 form-group">
 					<label for="numero_endereco_usuario">Número:</label>		
 					<input type="text" name="numero_endereco_usuario" class="form-control" id="numero_endereco_usuario" required="requiored">
 				</div>
