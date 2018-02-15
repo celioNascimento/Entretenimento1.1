@@ -11,17 +11,17 @@ if(!isset($_SESSION['usuario'])){
 <html lang="pt-br">
 <head>
 
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE-edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1" >
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1" >
 
-	<title>Home - Entretenimento</title>
+  <title>Home - Entretenimento</title>
 
-	<!------------------- Folhas de estilo ------------------------ -->
+  <!------------------- Folhas de estilo ------------------------ -->
 
-	<link rel="stylesheet" type="text/css" href="css/estilo-home.css">
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/estilo-home.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 
   <!-- link cnd para jquery -->
   <script src="http://code.jquery.com/jquery-3.3.1.min.js"
@@ -30,7 +30,7 @@ if(!isset($_SESSION['usuario'])){
 
 
 
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -107,39 +107,15 @@ if(!isset($_SESSION['usuario'])){
 
     <!-- -------------------------------------------- Conteúdo página ----------------------------- -->
 
-    <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-5 col-md-offset-3">
-
-            <a href="#"><span class="anuncio1">anuncio a vender</span></a>
-
-          </div>
-        </div>
-
-        <div class="row">
-
-          <div class="col-md-3"></div>
-
-          <div class="col-md-6">
-
-              <div class="conteudo" id="conteudo">
-               <img src="imagens/loader.gif" style="display: none" id="loader">
-              </div>
-
-          </div>
-
-           <div class="col-md-3"></div>
-
-          
-
-        </div>
+bares
+    
        
-    </div><!-- ******************** /container ********************** -->
+    </div><!-- **************************************** /container ******************************** -->
 
 
 <!-- -------------------------------------------- Rodapé ----------------------------- -->
 
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->

@@ -48,58 +48,62 @@
 
 	<div class="container">		
 		<div class="form-cadastro">
-			<form>
+			<form method="post" action="registra-estabelecimento.php">
 			<h3>Cadastra-se</h3>
 			<div class="row">
-				<div class="col-md-8 form-group ">
-					<label for="nome-estabelecimento">Nome do estabelecimento: </label>
-					<input type="text" name="" class="form-control" id="nome-estabelecimento" required="">
+				<div class="col-md-4 form-group ">
+					<label for="usuario">Nome do estabelecimento: </label>
+					<input type="text" name="usuario" class="form-control" id="usuario" required="required">
+				</div>
+				<div class="col-md-4 form-group ">
+					<label for="cnpj">CNPJ: </label>
+					<input type="text" name="cnpj" class="form-control" id="cnpj" required="required">
 				</div>
 			</div><!-- ************************ /row *********************-->
 
 			<div class="row">
 				<div class="col-md-5 form-group  ">
-					<label for="email-estabelecimento">Email:</label>
-					<input type="email" name="" class="form-control" id="email-cadastro" required="">
+					<label for="email">Email:</label>
+					<input type="email" name="email" class="form-control" id="email" required="required">
 				</div>
 
 				<div class="col-md-3 form-group">
-					<label for="telefone-estabelecimento">Telefone: </label>
-					<input type="text" name="" class="form-control" id="telefone-estabelecimento" required="">
+					<label for="telefone">Telefone: </label>
+					<input type="text" name="telefone" class="form-control" id="telefone" required="required">
 				</div>
 			</div><!-- ************************ /row *********************-->
 
 
 			<div class="row">
-				<div class="col-md-5 form-group">
-					<label for="endereco-cadastro">Endereço:</label>			
-					<input type="text" name="" class="form-control" id="endereco-cadastro" required="">
-				</div>
-
-				<div class="col-md-1 form-group">
-					<label for="numero-endereco-cadastro">Número:</label>			
-					<input type="text" name="" class="form-control" id="numero-endereco-cadastro" required="">
+				<div class="col-md-4 form-group">
+					<label for="endereco">Endereço:</label>			
+					<input type="text" name="endereco" class="form-control" id="endereco" required="required">
 				</div>
 
 				<div class="col-md-2 form-group">
-					<label for="complemento-endereco-cadastro">Complemento:</label>			
-					<input type="text" name="" class="form-control" id="complemento-endereco-cadastro" required="">
+					<label for="numero">Número:</label>			
+					<input type="text" name="numero" class="form-control" id="numero" required="required">
+				</div>
+
+				<div class="col-md-2 form-group">
+					<label for="complemento">Complemento:</label>			
+					<input type="text" name="complemento" class="form-control" id="complemento" required="required">
 				</div>
 
 			</div><!-- ************************ /row *********************-->
 
 			<div class="row">
 				<div class="col-md-8 form-group">
-					<label for="senha-cadastro">Senha:</label>
-					<input type="password" name="" class="form-control" id="senha-cadastro" required="">
+					<label for="senha">Senha:</label>
+					<input type="password" name="senha" class="form-control" id="senha" required="required">
 				</div>
 			</div><!-- ************************ /row *********************-->
 
-			<div class="btn-entrar-cadastro">
+			<div class="btn-cadastrar">
 
 				<div class="row">
 					<div class="col-md-2">
-						<input type="submit" name="" class="btn btn-default" value="Cadastrar">
+						<input type="submit" name="" class="btn btn-primary" value="Cadastrar">
 					</div>
 
 				</div><!-- ************************ /row *********************-->

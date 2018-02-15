@@ -17,7 +17,7 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0 ;
 	<title>Entretenimento</title>
 
 	<!------------------- Folhas de estilo ------------------------ -->
-	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css?1305608333">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 
@@ -88,14 +88,18 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0 ;
 		 						<input type="password" id="senha-index" class="form-control" name="senha"  placeholder="Insira sua senha">
 	 						</div>
 
+	 						<div class="erro">
 	 						<?php
 
-	 							if ($erro == 1){
+	 							if ($erro == 0){
+	 								echo "<font color='#ffffff'>Usuário e/ou senha inválido(s)</font>";
+	 							}else{
 
 	 								echo "<font color='#ff0000'>Usuário e/ou senha inválido(s)</font>";
 	 							}
 
 	 						?>
+	 						</div>
 
 	 						<div class="botao-index">
 	 							<input type="submit" id="botao-index" name="botao-index" class="btn btn-primary" value="Entrar">
@@ -106,10 +110,16 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0 ;
 	 				<div class="cadastro-index">
 	 					<div class="teste"><h3>Cadastre-se</h3></div>
 		 					<div class="row">
-		 						<div class="col-md-3 "><a href="cadastro-estabelecimento.php" class="btn btn-warning btn-custom btn-estabelecimento btn-lg">Estabelecimento</a></div></div>
+		 						<div class="col-md-3 "><a href="cadastro-estabelecimento.php" class="btn btn-warning btn-custom btn-estabelecimento btn-lg">Estabelecimento</a></div>
+		 					</div>
 
 		 						<div class="row">
-			 					<div class="col-md-1 col-md-offset-2"> <a href="cadastro-usuario.php" class="btn btn-success btn-custom btn-lg btn-usuario">Usuário</a></div></div>
+			 						<div class="col-md-1 col-md-offset-2"> <a href="cadastro-usuario.php" class="btn btn-success btn-custom btn-lg btn-usuario">Usuário</a></div>
+			 					</div>
+
+			 					<div class="link-estabelecimento">
+			 						<a href="#">Entre como estabelecimento</a>
+			 					</div>
 
 		 					</div>
 		 			</div>				
@@ -121,9 +131,28 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0 ;
 
 
 	<footer class="rodape-index">
+		<div class="container">
+
+				<div class="row">
+					<div class="col-md-2">
+						<span class="img-rodape">entretenimento</span>
+					</div>
+
+					<div class="col-md-2 col-md-offset-7">
+						<ul class="nav navbar-nav ">
+							<li><a href="#">Fale conosco</a></li>
+						</ul>
+					</div>
+
+				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+						<span>&copy;Todos os direitos reservados</span>
+					</div>
+				</div>
 		
-				<span>&copy;Todos os direitos reservados</span>
-		
+		</div>				
 	</footer>
 
 

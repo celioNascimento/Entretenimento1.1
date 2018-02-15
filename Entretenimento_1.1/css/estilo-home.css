@@ -12,11 +12,14 @@ body {
 
 }
 
+
+/* ----------------------- barra de navegação ---------------------*/
+
 nav.navbar-vermelha {
 	background:#8B0000 !important;
 	padding: 15px;
 	border: none;
-	margin-top: 15px;
+	margin-top: -15px;
 
 }
 
@@ -28,6 +31,12 @@ nav.navbar-vermelha {
 	background: url('../imagens/entretenimento.png')no-repeat;
 	background-size: contain;
 	margin-top: -2px;
+
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color:#8B0000!important;
 
 }
 
@@ -49,3 +58,150 @@ nav.navbar-vermelha {
 	color: white !important;
 }
 
+.conteudo {
+
+	margin-top: 30px;
+}
+
+
+/* ----------------------- conteúdo página ---------------------*/
+
+.anuncio1{
+	border: 1px solid red;
+	display:block;
+	width: 840px;
+	height: 90px;
+	margin-top: 100px
+
+}
+
+
+
+/* --------------------------------- media queries -------------------------------------*/
+
+/* --------------------------------- xs < 540px -------------------------------------*/
+
+@media screen and (max-width: 540px){
+
+	body {
+	
+	}
+
+	.img-logo {
+
+	width: 167px;
+	height: 24px;
+	display: block;
+	background: url('../imagens/entretenimento.png')no-repeat;
+	background-size: contain;
+	margin-top: 7px;
+	margin-left: -4px;
+
+}
+
+
+	.divisor {
+
+		width: 16px;
+		height: 1px;
+		margin-left: 16px;
+		margin-bottom: 13px;
+
+	}
+
+	/* ----------------------- conteúdo página ---------------------*/
+
+.anuncio1{
+	border: 1px solid red;
+	display:block;
+	width: 330px;
+	height: 70px;
+	margin-top: 100px
+
+}
+
+
+}
+
+/* --------------------------------- xs > 541px -------------------------------------*/
+
+@media screen and (min-width: 541px){
+
+	body {
+		
+	}
+
+		/* ----------------------- conteúdo página ---------------------*/
+
+.anuncio1{
+	border: 1px solid red;
+	display:block;
+	width: 525px;
+	height: 80px;
+	margin-top: 100px;
+	margin-left: 40px;
+
+}
+
+}
+
+/* --------------------------------- ms > 767px -------------------------------------*/
+
+@media screen and (min-width: 767px){
+
+	body {
+
+	}
+
+	.anuncio1{
+	border: 1px solid red;
+	display:block;
+	width: 680px;
+	height: 80px;
+	margin-top: 100px;
+	margin-left: 40px;
+
+}
+
+
+}
+
+/* --------------------------------- ms > 992px -------------------------------------*/
+
+
+@media screen and (min-width: 992px){
+
+.anuncio1{
+	border: 1px solid red;
+	display:block;
+	width: 800px;
+	height: 90px;
+	margin-top: 100px;
+	margin-left: -120px
+
+
+}
+
+}
+
+/* ------------------------------------md < 1200 ----------------- */
+
+@media screen and (min-width: 1200px){
+
+	body {
+
+		
+		
+	}
+
+	.anuncio1{
+	border: 1px solid red;
+	display:block;
+	width: 840px;
+	height: 90px;
+	margin-top: 100px;
+	margin-left: 0px
+
+
+}
+}

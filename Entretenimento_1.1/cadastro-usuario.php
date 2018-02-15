@@ -1,3 +1,11 @@
+<?php
+
+	$erro_usuario = isset($_GET['erro_usuario'])  ?  $_GET['erro_usuario'] : 0;
+	$erro_email   = isset($_GET['erro_email'])    ?  $_GET['erro_email']   : 0;
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -9,7 +17,7 @@
 
 	<!------------------- Folhas de estilo ------------------------ -->
 
-	<link rel="stylesheet" type="text/css" href="css/estilo-cadastro.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo-cadastro.css?version10">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 
@@ -55,6 +63,13 @@
 				<div class="col-md-3 form-group ">
 					<label for="nome">Usuário:</label>
 					<input type="text" name="usuario" class="form-control" id="usuario" required="requiored">
+					<div><?php 
+						if ($erro_usuario){
+							echo '<font style="color : #ff0000">Usuário já Cadastrado</font>';
+						}else{
+							echo '<font style="color : #ffffff">Usuário já Cadastrado</font>';
+						}
+					?></div>
 				</div>
 
 				<div class="col-md-5 form-group ">
@@ -68,6 +83,13 @@
 				<div class="col-md-5 form-group  ">
 					<label for="email">Email:</label>
 					<input type="email" name="email" class="form-control" id="email" required="requiored">
+					<div><?php 
+						if ($erro_email){
+							echo '<font style="color : #ff0000">Email já Cadastrado</font>';
+						}else{
+							echo '<font style="color : #ffffff">Email já Cadastrado</font>';
+						}
+					?></div>
 				</div>
 
 				<div class="col-md-3 form-group">
@@ -129,11 +151,27 @@
 			</form>
 		</div><!-- ************************ /container *********************-->
 
-		<footer class="rodape-cadastro">
-			<div class="container">
+		<footer class="rodape-cadastro navbar-inverse">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-2">
+					<span class="img-rodape">entretenimento</span>
+				</div>
+
+				<div class="col-md-2 col-md-offset-7">
+					<ul class="nav navbar-nav">
+						<li><a href="#">Fale conosco</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="direitos">
 				<span>&copy;Todos os direitos reservados</span>
 			</div>
-		</footer>
+		
+		</div>				
+	</footer>
 
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

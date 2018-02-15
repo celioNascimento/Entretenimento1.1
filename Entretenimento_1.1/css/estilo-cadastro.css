@@ -54,10 +54,28 @@ nav.navbar-barra-navegacao{
 .rodape-cadastro {
 	background:#8B0000 !important;
 	width: 100%;
-	height:50px;
+	height:70px;
 	margin-top: 348px;
 	color: white;
 	text-align: center;
+}
+.img-rodape {
+
+	display: block;
+	width: 127px;
+	height: 30px;
+	background:url('../imagens/entretenimento.png')no-repeat;
+	background-size: contain;
+	color: transparent;
+	margin-top: 15px
+}
+
+.direitos {
+	margin-top: 45px
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white !important;
 }
 
 /* --------------------------------- media queries -------------------------------------*/
@@ -88,11 +106,11 @@ nav.navbar-barra-navegacao{
 	margin: 55px 125px;
 }
 
-.rodape-cadastro {
+	.rodape-cadastro {
 	background:#8B0000 !important;
 	width: 100%;
-	height:50px;
-	margin-top: 105px;
+	height:165px;
+	margin-top: 150px;
 }
 
 }
@@ -108,20 +126,20 @@ nav.navbar-barra-navegacao{
 .form-cadastro{
 
 	margin-top: 100px;
-	margin-left:50px;
+	margin-left:10px;
 }
 
 	.btn-cadastrar {
 
-	margin: 55px 190px;
+	margin: 55px 230px;
 }
 
 
-.rodape-cadastro {
+	.rodape-cadastro {
 	background:#8B0000 !important;
 	width: 100%;
-	height:50px;
-	margin-top: 105px;
+	height:165px;
+	margin-top: 270px;
 }
 
 }
@@ -142,13 +160,13 @@ nav.navbar-barra-navegacao{
 
 	.btn-cadastrar {
 
-	margin: 55px 260px;
+	margin: 55px 290px;
 }
-.rodape-cadastro {
+	.rodape-cadastro {
 	background:#8B0000 !important;
 	width: 100%;
-	height:50px;
-	margin-top: 100px;
+	height:163px;
+	margin-top: 270px;
 }
 }
 
@@ -172,8 +190,8 @@ nav.navbar-barra-navegacao{
 	.rodape-cadastro {
 	background:#8B0000 !important;
 	width: 100%;
-	height:50px;
-	margin-top: 328px;
+	height:135px;
+	margin-top: 270px;
 }
 }
 
@@ -192,15 +210,15 @@ nav.navbar-barra-navegacao{
 
 	.btn-cadastrar {
 
-	margin: 55px 270px;
+	margin: 55px 255px;
 }
 
 
 	.rodape-cadastro {
 	background:#8B0000 !important;
 	width: 100%;
-	height:50px;
-	margin-top: 348px;
+	height:135px;
+	margin-top: 270px;
 }
 
 }
