@@ -51,14 +51,35 @@
 			<form method="post" action="registra-estabelecimento.php">
 			<h3>Cadastra-se</h3>
 			<div class="row">
+				<div class="col-md-5 form-group ">
+					<label for="estabelecimento">Nome do estabelecimento: </label>
+					<input type="text" name="estabelecimento" class="form-control" id="estabelecimento" required="required">
+				</div>
+
+				<div class="col-md-3 form-group ">
+					<label for="cnpj">Tipo: </label>
+					<select name="tipo" class="form-control"> 
+						<option>Bar</option>
+						<option>Boate</option>
+						<option>Cinema</option>
+						<option>Pub</option>
+					</select>
+				</div>
+
+			</div><!-- ************************ /row *********************-->
+
+			<div class="row">
+
 				<div class="col-md-4 form-group ">
-					<label for="usuario">Nome do estabelecimento: </label>
+					<label for="cnpj">Usuário: </label>
 					<input type="text" name="usuario" class="form-control" id="usuario" required="required">
 				</div>
+
 				<div class="col-md-4 form-group ">
 					<label for="cnpj">CNPJ: </label>
 					<input type="text" name="cnpj" class="form-control" id="cnpj" required="required">
 				</div>
+
 			</div><!-- ************************ /row *********************-->
 
 			<div class="row">

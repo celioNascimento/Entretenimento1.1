@@ -34,6 +34,7 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0 ;
 			//verificar se os campos de usuário e senha foram devidamente preenchidos
 
 			$('#botao-index').click(function(){
+				
 
 				if ($('#login-index').val() == ''){
 					$('#login-index').css({'border-color': '#A94442'});
@@ -41,6 +42,7 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0 ;
 				}else{
 					$('#login-index').css({'border-color': '#CCC'});
 				}
+
 
 				if ($('#senha-index').val() == ''){
 
@@ -118,7 +120,7 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0 ;
 			 					</div>
 
 			 					<div class="link-estabelecimento">
-			 						<a href="#">Entre como estabelecimento</a>
+			 						<a href="index-estabelecimento.php">Entre como estabelecimento</a>
 			 					</div>
 
 		 					</div>
@@ -138,9 +140,9 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0 ;
 						<span class="img-rodape">entretenimento</span>
 					</div>
 
-					<div class="col-md-2 col-md-offset-7">
+					<div class="col-md-3 col-md-offset-6">
 						<ul class="nav navbar-nav ">
-							<li><a href="#">Fale conosco</a></li>
+							<li><a href="#">Você tem alguma dúvida? Fale conosco</a></li>
 						</ul>
 					</div>
 
@@ -148,7 +150,7 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0 ;
 
 				<div class="row">
 					<div class="col-md-12">
-						<span>&copy;Todos os direitos reservados</span>
+						<span class="direitos">&copy;Todos os direitos reservados</span>
 					</div>
 				</div>
 		
