@@ -9,7 +9,7 @@
 
 	<!------------------- Folhas de estilo ------------------------ -->
 
-	<link rel="stylesheet" type="text/css" href="css/estilo-cadastro.css?version=12">
+	<link rel="stylesheet" type="text/css" href="css/estilo-cadastro.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 
@@ -47,7 +47,7 @@
 	<!-- --------------------------------------- Conteúdo -------------------------------- -->
 
 	<div class="container">		
-		<div class="form-cadastro">
+		<div class="conteudo">
 			<form method="post" action="registra-estabelecimento.php">
 			<h3>Cadastra-se</h3>
 			<div class="row">
@@ -57,7 +57,7 @@
 				</div>
 
 				<div class="col-md-3 form-group ">
-					<label for="cnpj">Tipo: </label>
+					<label for="tipo">Tipo: </label>
 					<select name="tipo" class="form-control"> 
 						<option>Bar</option>
 						<option>Boate</option>
@@ -135,7 +135,7 @@
 			</form>
 		</div><!-- ************************ /container *********************-->
 
-		<footer class="rodape-cadastro">
+		<footer class="rodape-cadastro navbar-inverse">
 			<div class="container">
 				<span>&copy;Todos os direitos reservados</span>
 			</div>

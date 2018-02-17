@@ -19,7 +19,8 @@ body{
 	width: 330px;
 	height: 50px;
 	margin: 50px 10px 20px 400px;
-	background: url('../imagens/entretenimento.png')no-repeat;
+	background: url('../imagens/entretenimento.png')no-repeat,
+			   rgba(0,0,0,0.6);
 	background-size: contain;
 	color: transparent;
 
@@ -30,12 +31,12 @@ body{
 	
 
 	width: 100%;
-	height: 750px;
-	padding: 110px 10px 0px 320px;
+	
+	padding: 110px 10px 0px 0px;
 	margin-top: 50px;
 }
 
-.login{
+.cadastro-login{
 
 	width: 495px;
 	height: 550px;
@@ -81,10 +82,38 @@ body{
 	margin:45px 130px;
 }
 
-.cadastro-index {
-	
-	border: 1px solid red
+.link-estabelecimento{
+
+	margin-top: 20px;
 }
+
+
+.cadastro-index{
+
+	padding: 420px 5px 5px 92px ;
+	width: 330px;
+	height: 70px;
+	text-align: center;
+	color: #337ab7;
+}
+
+.cadastro-index a {
+
+
+
+}
+
+
+.btn-custom {
+
+	border-radius: 10px !important;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin:25px 20px 0px 40px;
+	
+
+}
+
 
 .rodape-index{
 
@@ -101,7 +130,7 @@ body{
 	
 	width: 230px;
 	height: 34px;
-	margin-left: 440px;
+	margin-left: 340px;
 	margin-top: 15px;
 	background: url('../imagens/logo-rodape.png')no-repeat;
 	background-size: contain;
@@ -129,7 +158,7 @@ footer .navbar-nav>li>a:hover {
 
 /* ------------------------------------ pagina index ----------------- */	
 
-.img-logo{
+	.img-logo{
 	width: 220px;
 	height: 25px;
 	margin: 30px 10px 20px 57px;
@@ -146,7 +175,7 @@ footer .navbar-nav>li>a:hover {
 	margin-top: 15px;
 }
 
-.login{
+.cadastro-login{
 
 	width: 330px;
 	height: 510px;
@@ -157,6 +186,12 @@ footer .navbar-nav>li>a:hover {
 	-moz-border-radius: 4px;
 	
 	
+}
+
+.login-index {
+
+padding: 10px;
+
 }
 
 .formulario-index{
@@ -175,6 +210,28 @@ footer .navbar-nav>li>a:hover {
 }
 
 
+.info{
+
+	padding: 320px 5px 5px 0px ;
+	width: 330px;
+	height: 70px;
+	text-align: center;
+	color: #337ab7;
+}
+
+.info h4 {
+	font-size: 16px
+}
+
+.btn-custom {
+
+	border-radius: 10px !important;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin:15px 20px 0px 20px;
+	
+
+}
 
 .rodape-index{
 
@@ -187,13 +244,14 @@ footer .navbar-nav>li>a:hover {
 .img-rodape {
 
 	display: block;
+	position: relative;
 	width: 134px;
 	height: 30px;
 	background:url('../imagens/logo-rodape.png')no-repeat;
 	background-size: contain;
 	color: transparent;
 	margin-top: 15px;
-	margin-left: 100px;
+	margin-left: 90px;
 }
 
 
@@ -217,7 +275,7 @@ footer .navbar-nav>li>a:hover {
 	width: 260px;
 	height: 30px;
 	margin: 50px 10px 20px 184px;
-	background: url('../imagens/.png')no-repeat;
+	background: url('../imagens/entretenimento.png')no-repeat;
 	background-size: contain;
 
 }
@@ -230,7 +288,7 @@ footer .navbar-nav>li>a:hover {
 	margin-top: 50px;
 }
 
-.login{
+.cadastro-login{
 
 	width: 380px;
 	height: 520px;
@@ -262,6 +320,31 @@ padding: 10px;
 	margin:55px 135px;
 }
 
+.info{
+
+	padding: 335px 5px 5px 70px ;
+	width: 330px;
+	height: 70px;
+	text-align: center;
+	color: #337ab7;
+
+}
+
+.info h4 {
+	font-size: 17px
+}
+
+.btn-custom {
+
+	border-radius: 10px !important;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin:25px 20px 0px 20px;
+	
+
+}
+
+
 .rodape-index{
 
 	margin: 25px 0px 0px 0px;
@@ -273,13 +356,13 @@ padding: 10px;
 .img-rodape {
 
 	display: block;
-	width: 147px;
+	width: 167px;
 	height: 32px;
 	background:url('../imagens/logo-rodape.png')no-repeat;
 	background-size: contain;
 	color: transparent;
 	margin-top: 15px;
-	margin-left: 225px
+	margin-left: 222px
 
 }
 
@@ -297,7 +380,7 @@ padding: 10px;
 	}
 
 	/* ------------------------------------ pagina index ----------------- */
-.img-logo{
+	.img-logo{
 	width: 300px;
 	height: 34px;
 	margin: 50px 10px 20px 225px;
@@ -314,7 +397,7 @@ padding: 10px;
 	margin-top: 50px;
 }
 
-.login{
+.cadastro-login{
 
 	width: 415px;
 	height: 560px;
@@ -341,10 +424,24 @@ padding: 10px;
 	margin:55px 135px;
 }
 
+.info{
+
+	padding: 345px 5px 5px 92px ;
+	width: 330px;
+	height: 70px;
+	text-align: center;
+	color: #337ab7;
+}
+
 
 .img-rodape {
 	width: 175px;
 	height: 32px
+}
+
+.duvida {
+
+	margin:0px 0px 0px 200px;
 }
 
 }
@@ -379,7 +476,7 @@ padding: 10px;
 	margin-top: 50px;
 }
 
-.login{
+.cadastro-login{
 
 	width: 415px;
 	height: 560px;
@@ -405,6 +502,35 @@ padding: 10px;
 	margin:55px 130px;
 }
 
+.info{
+
+	padding: 400px 5px 5px 92px ;
+	width: 330px;
+	height: 70px;
+	text-align: center;
+	color: #337ab7;
+}
+
+
+.btn-custom {
+
+margin: 0px 55px 0px 10px;
+	border-radius: 10px !important;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin:25px 20px 0px 20px;
+	
+
+}
+
+.btn-estabelecimento{
+
+	margin-left: 35px
+}
+
+.btn-usuario {
+	margin-left: 27px
+}
 
 }
 
@@ -429,13 +555,12 @@ padding: 10px;
 
 .conteudo-index{
 
-	width: 100%;
 	height: 750px;
 	padding: 70px 10px 0px 370px;
 	margin-top: 50px;
 }
 
-.login{
+.cadastro-login{
 
 	width: 415px;
 	height: 560px;
@@ -447,6 +572,16 @@ padding: 10px;
 	
 }
 
+.info{
+
+	padding: 420px 5px 5px 92px ;
+	width: 330px;
+	height: 70px;
+	text-align: center;
+	color: #337ab7;
+}
+
+
 .rodape-index{
 
 	margin: 89px 0px 0px 0px;
@@ -454,6 +589,10 @@ padding: 10px;
 	width: 100%;
 
 
+}
+
+.img-rodape{
+	margin-left: 0px
 }
 }
 

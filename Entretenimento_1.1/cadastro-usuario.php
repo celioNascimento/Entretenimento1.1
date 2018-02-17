@@ -17,7 +17,7 @@
 
 	<!------------------- Folhas de estilo ------------------------ -->
 
-	<link rel="stylesheet" type="text/css" href="css/estilo-cadastro.css?version10">
+	<link rel="stylesheet" type="text/css" href="css/estilo-cadastro.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 
@@ -34,7 +34,7 @@
 
 	<!-- --------------------------------------- Barra de Navegação -------------------------------- -->
 
-	<nav class="navbar navbar-fixed-top navbar-barra-navegacao">
+	<nav class="navbar navbar-fixed-top navbar-inverse navbar-barra-navegacao">
 		<div class="container">
 			<!-- ************** header *********************-->
 
@@ -54,101 +54,131 @@
 
 	<!-- --------------------------------------- Conteúdo -------------------------------- -->
 
-	<div class="container">		
-		<div class="form-cadastro">
-			<form method="post" action="registra_usuario.php" id="form_cadastra_usuario">
-			<h3>Cadastra-se</h3>
-			<div class="row">
+		<div class="container">	
 
-				<div class="col-md-3 form-group ">
-					<label for="nome">Usuário:</label>
-					<input type="text" name="usuario" class="form-control" id="usuario" required="requiored">
-					<div><?php 
-						if ($erro_usuario){
-							echo '<font style="color : #ff0000">Usuário já Cadastrado</font>';
-						}else{
-							echo '<font style="color : #ffffff">Usuário já Cadastrado</font>';
-						}
-					?></div>
+			<div class="conteudo">
+
+				<div class="titulo">
+					<h2>Cadastro</h2>
 				</div>
 
-				<div class="col-md-5 form-group ">
-					<label for="nome">Nome:</label>
-					<input type="text" name="nome" class="form-control" id="nome" required="requiored">
-				</div>
+			<div class="col-md-12">
+				<div class= " panel-default">
+					<div class="panel-body">
+						<div class="formulario-cadastro">
+							<form>
+								<div class="row">
+									<div class="col-md-4">
+										<label for="usuario">Usuário:</label>
+										<input type="text" name="usuario" class="form-control" id=usuario> 
+									</div>
+								
+									<div class="col-md-8">
+										<label for="nome">Nome:</label>
+										<input type="text" name="nome" class="form-control" id=nome> 
+									</div>
+								</div>
 
-			</div><!-- ************************ /row *********************-->
-
-			<div class="row">
-				<div class="col-md-5 form-group  ">
-					<label for="email">Email:</label>
-					<input type="email" name="email" class="form-control" id="email" required="requiored">
-					<div><?php 
-						if ($erro_email){
-							echo '<font style="color : #ff0000">Email já Cadastrado</font>';
-						}else{
-							echo '<font style="color : #ffffff">Email já Cadastrado</font>';
-						}
-					?></div>
-				</div>
-
-				<div class="col-md-3 form-group">
-					<label for="data_nascimento_">Data de Nascimento</label>
-					<input type="date" name="data_nascimento" class="form-control" id="data_nascimento" required="requiored">
-				</div>
-			</div><!-- ************************ /row *********************-->
+							<!-- ************************** /row ******************* -->
 
 
-			<div class="row">
-				<div class="col-md-4 form-group">
-					<label for="endereco_usuario">Endereço:</label>			
-					<input type="text" name="endereco_usuario" class="form-control" id="endereco_usuario" required="requiored">
-				</div>
+							<div class="row div-form">
+									<div class="col-md-4 ">
+										<label for="data-nascimento">Data de Nascimento</label>
+										<input type="date" name="data-nascimento" class="form-control" id="data-nascimento">
+									</div>
 
-				<div class="col-md-2 form-group">
-					<label for="numero_endereco_usuario">Número:</label>		
-					<input type="text" name="numero_endereco_usuario" class="form-control" id="numero_endereco_usuario" required="requiored">
-				</div>
+									<div class="col-md-4">
+										<label for="sexo">Sexo:</label>
+										<select name="sexo" class="form-control">
+											<option></option>
+											<option>Feminino</option>
+											<option>Masculino</option>
+										</select>
+									</div>
 
-				<div class="col-md-2 form-group">
-					<label for="complemento_endereco_usuario">Complemento:</label>			
-					<input type="text" name="complemento_endereco_usuario" class="form-control" id="complemento_endereco_usuario" required="requiored">
-				</div>
+									
+								</div>
 
-			</div><!-- ************************ /row *********************-->
+							<!-- ************************** /row ******************* -->
 
-			<div class="row">
-				<div class="col-md-4">
-					<label for="cidade">Cidade:</label>
-					<input type="text" name="cidade" class="form-control" id="cidade" required="requiored">
-				</div>
 
-				<div class="col-md-4">
-					<label for="estado">Estado:</label>
-					<input type="text" name="estado" class="form-control" id="estado" required="requiored">
-				</div>
-			</div><!-- ************************ /row *********************-->
+								<div class="row div-form">
+									<div class="col-md-8">
+										<label for="email">Email:</label>
+										<input type="text" name="email" class="form-control" id="email">
+									</div>
 
-			<div class="row">
-				<div class="col-md-8 form-group">
-					<label for="senha">Senha:</label>
-					<input type="password" name="senha" class="form-control" id="senha" required="requiored">
-				</div>
-			</div><!-- ************************ /row *********************-->
+									<div class="col-md-4">
+										<label for="telefone">Telefone:</label>
+										<input type="text" name="telefone" class="form-control" id="telefone">
+									</div>
+								</div>
 
-			<div class="btn-cadastrar">
+							<!-- ************************** /row ******************* -->
 
-				<div class="row">
-					<div class="col-md-2">
-						<input type="submit" name="" class="btn btn-primary" value="Cadastrar">
+								<div class="row div-form">
+									<div class="col-md-7">
+										<label for="endereco">Endereço:</label>
+										<input type="text" name="endereco" class="form-control" id="endereco">
+									</div>
+
+									<div class="col-md-2">
+										<label for="numero">Numero:</label>
+										<input type="text" name="numero" class="form-control" id="numero">
+									</div>
+
+									<div class="col-md-3">
+										<label for="complemenro">Complemento:</label>
+										<input type="text" name="complemento" class="form-control" id="complemento">
+									</div>
+								</div>
+
+							<!-- ************************** /row ******************* -->
+
+								<div class="row div-form">
+									<div class="col-md-8">
+										<label for="cidade">Cidade:</label>
+										<input type="text" name="cidade" class="form-control" id="cidade">
+									</div>
+
+									<div class="col-md-4">
+										<label for="estado">Telefone:</label>
+										<input type="text" name="estado" class="form-control" id="estado">
+									</div>
+								</div>
+
+								<div class="row div-form">
+									<div class="col-md-12">
+										<label for="senha">Senha:</label>
+										<input type="text" name="senha" class="form-control" id="senha">
+									</div>
+								</div>
+
+
+								<div class="botoes">
+									<div class="row">
+										<div class="col-md-3 btn-cadastrar">										
+											<input type="submit" name="" class="btn btn-primary" value="Cadastrar">
+										</div>
+
+										<div class="col-md-3 btn-cancelar">										
+											<input type="submit" name="" class="btn btn-danger" value="Cancelar">
+										</div>
+
+									</div>
+								</div>
+
+							</form>
+						</div>
 					</div>
-
-				</div><!-- ************************ /row *********************-->
-
+				</div>
 			</div>
 
-			</div><!-- ************************ /form-cadastro *********************-->
-			</form>
+		
+			
+		</div>
+
 		</div><!-- ************************ /container *********************-->
 
 		<footer class="rodape-cadastro navbar-inverse">
@@ -159,9 +189,9 @@
 					<span class="img-rodape">entretenimento</span>
 				</div>
 
-				<div class="col-md-2 col-md-offset-7">
+				<div class="col-md-4 col-md-offset-7 fale-conosco">
 					<ul class="nav navbar-nav">
-						<li><a href="#">Fale conosco</a></li>
+						<li><a href="#">Você tem alguma dúvida? Fale conosco</a></li>
 					</ul>
 				</div>
 			</div>

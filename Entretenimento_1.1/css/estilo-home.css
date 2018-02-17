@@ -16,7 +16,6 @@ body {
 /* ----------------------- barra de navegação ---------------------*/
 
 nav.navbar-vermelha {
-	background:#8B0000 !important;
 	padding: 15px;
 	border: none;
 	margin-top: -15px;
@@ -34,11 +33,7 @@ nav.navbar-vermelha {
 
 }
 
-.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
-    color: #fff;
-    background-color:#8B0000!important;
 
-}
 
 .divisor{
 

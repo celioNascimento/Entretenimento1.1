@@ -7,7 +7,7 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0 ;
 ?>
 
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" ng-app>
 <head>
 
 	<meta charset="utf-8">
@@ -17,7 +17,7 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0 ;
 	<title>Entretenimento</title>
 
 	<!------------------- Folhas de estilo ------------------------ -->
-	<link rel="stylesheet" type="text/css" href="css/estilo.css?1305608333">
+	<link rel="stylesheet" type="text/css" href="css/estilo-index-estabelecimento	.css?1305608333">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 
@@ -123,13 +123,13 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0 ;
 	 					</form>
 	 				</div>
 	 			</div>
-		 				<!--<div class="cadastro-index">
+		 				<div class="info">
 		 					<div class="row">
 		 						<div class="col-md-12">
 		 							<h4>Divulgue aqui os eventos do seu estabelecimento</h4>
 		 						</div>
 		 						
-		 					</div>-->
+		 					</div>
 			 			</div>
 		 			</div>				
 				
@@ -147,7 +147,7 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0 ;
 						<span class="img-rodape">entretenimento</span>
 					</div>
 
-					<div class="col-md-3 col-md-offset-6">
+					<div class="col-md-3 col-md-offset-6 duvida">
 						<ul class="nav navbar-nav ">
 							<li><a href="#">Você tem alguma dúvida? Fale conosco</a></li>
 						</ul>

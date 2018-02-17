@@ -7,7 +7,7 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0 ;
 ?>
 
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" ng-app>
 <head>
 
 	<meta charset="utf-8">
@@ -17,16 +17,18 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0 ;
 	<title>Entretenimento</title>
 
 	<!------------------- Folhas de estilo ------------------------ -->
-	<link rel="stylesheet" type="text/css" href="css/estilo.css?1305608333">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css?version10">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 
 	<!-- jquery - link cdn -->
 		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 
+		  <script src="https://ajax.googleapis.com/ajax/libs/angularjs//angular.js"></script>
+
 
 	<script type="text/javascript">
-		
+
 		$(document).ready(function (){
 
 			var campo_vazio = false;
@@ -34,7 +36,7 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0 ;
 			//verificar se os campos de usuário e senha foram devidamente preenchidos
 
 			$('#botao-index').click(function(){
-				
+
 
 				if ($('#login-index').val() == ''){
 					$('#login-index').css({'border-color': '#A94442'});
@@ -53,7 +55,7 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0 ;
 				}
 
 				//o return false impede o envio do formulário
-				if (campo_vazio) return false; 
+				if (campo_vazio) return false;
 
 			});
 
@@ -77,7 +79,7 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0 ;
 			<div class="cadastro-login">
 
 	 			<div class="col-md-10 col-md-offset-1 login-index">
-	 				
+
 	 				<div class="form-group formulario-index">
 	 					<h3>Entrar</h3>
 	 					<form method="post" action="validar-acesso.php">
@@ -124,8 +126,8 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0 ;
 			 					</div>
 
 		 					</div>
-		 			</div>				
-				
+		 			</div>
+
  			</div>
 	    </div>
 
@@ -140,7 +142,7 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0 ;
 						<span class="img-rodape">entretenimento</span>
 					</div>
 
-					<div class="col-md-3 col-md-offset-6">
+					<div class="col-md-3 col-md-offset-6 duvida">
 						<ul class="nav navbar-nav ">
 							<li><a href="#">Você tem alguma dúvida? Fale conosco</a></li>
 						</ul>
@@ -148,13 +150,13 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0 ;
 
 				</div>
 
-				<div class="row">
+				<div class="row direitos>
 					<div class="col-md-12">
-						<span class="direitos">&copy;Todos os direitos reservados</span>
+						<span >&copy;Todos os direitos reservados</span>
 					</div>
 				</div>
-		
-		</div>				
+
+		</div>
 	</footer>
 
 

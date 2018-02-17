@@ -9,50 +9,70 @@
 
 body {
 
+	background: url('../imagens/img-bar4.jpg')no-repeat;
+	background-size: cover;
 	  
 
 }
 
 .img-logo {
 
-	width: 167px;
-	height: 24px;	
+	width: 210px;
+	height: 28px;	
 	background: url('../imagens/entretenimento.png')no-repeat;
 	background-size: contain;
 	display: block;
 	color: transparent;
-	margin-left: 80px;
+	margin-left: 16em;
 	margin-top: 5px;
 }
 
 nav.navbar-barra-navegacao{
 
-	padding: 0px 0px 15px 0px;
-	background:#8B0000 !important;
+	padding: 0px 0px 45px 0px;
 	border: none;
+	background-color: rgba(0,0,0,0.8);
 }
 
-.form-cadastro{
 
-	margin-top: 100px;
-	margin-left:145px;
+.conteudo {
+
+	width: 750px;
+	height: 750px;
+	background-color: rgba(0,0,0,0.95) ;
+	margin-top: 110px;
+	margin-left: 210px;
+	color: white;
+	border-radius: 5px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
 }
 
-#nome-cadastro{
-	max-width: 97ch
+.titulo {
+
+	margin: 30px 0px 0px 30px;
+
 }
 
-#numero-endereco-cadastro {
-	max-width: 12ch;
+.formulario-cadastro {
+
+	margin-top: 15px;
 }
 
-.btn-cadastrar {
+.botoes {
 
-	margin: 55px 290px;
+	margin-top: 65px;
+	margin-left: 230px
+
 }
+
+
+}
+
+
 
 .rodape-cadastro {
-	background:#8B0000 !important;
+	background:black !important;
 	width: 100%;
 	height:70px;
 	margin-top: 348px;
@@ -62,7 +82,7 @@ nav.navbar-barra-navegacao{
 .img-rodape {
 
 	display: block;
-	width: 127px;
+	width: 157px;
 	height: 30px;
 	background:url('../imagens/entretenimento.png')no-repeat;
 	background-size: contain;
@@ -71,12 +91,23 @@ nav.navbar-barra-navegacao{
 }
 
 .direitos {
-	margin-top: 45px
+	margin-top: 45px;
+	margin-left: 90px;
 }
+
+.fale-conosco{
+
+	margin-left: 60px
+
+}
+
+
 
 .navbar-inverse .navbar-nav>li>a {
     color: white !important;
 }
+
+
 
 /* --------------------------------- media queries -------------------------------------*/
 
@@ -95,22 +126,57 @@ nav.navbar-barra-navegacao{
 	border: none;
 }
 
-	.form-cadastro{
+.img-logo {
 
-	margin-top: 100px;
-	margin-left:0px;
+	margin-left: 70px;
+	margin-top: 5px;
 }
 
-	.btn-cadastrar {
+.conteudo {
 
-	margin: 55px 125px;
+	width: 340px;
+	height: 930px;
+	margin-left: -5px;
 }
+
+.botoes {
+
+	margin-top: 50px;
+	margin-left: 100px;
+
+}
+
+.btn-cadatrar{
+
+}
+
+.btn-cancelar{
+	margin-top: 15px;
+	margin-left: 3px;
+}
+
 
 	.rodape-cadastro {
-	background:#8B0000 !important;
+	background:black !important;
 	width: 100%;
 	height:165px;
 	margin-top: 150px;
+}
+
+.img-rodape {
+
+	margin-left: 90px
+}
+
+.fale-conosco{
+
+	margin-left: 45px
+
+}
+
+.direitos {
+	margin-top: 45px;
+	margin-left: 70px;
 }
 
 }
@@ -123,23 +189,71 @@ nav.navbar-barra-navegacao{
 		
 	}
 
+nav.navbar-barra-navegacao{
+
+	padding: 0px 0px 15px 0px;
+
+}
+
+.img-logo {
+
+	margin-left: 200px;
+	margin-top: 5px;
+}
+
 .form-cadastro{
 
 	margin-top: 100px;
 	margin-left:10px;
 }
 
-	.btn-cadastrar {
+.conteudo {
 
-	margin: 55px 230px;
+	width: 570px;
+	height: 970px;
+	margin-left: 1.5em; 
+
+}
+
+.botoes {
+
+	margin-top: 50px;
+	margin-left: 222px;
+
+}
+
+.btn-cadatrar{
+
+}
+
+.btn-cancelar{
+	margin-top: 15px;
+	margin-left: 3px;
 }
 
 
-	.rodape-cadastro {
-	background:#8B0000 !important;
+
+.rodape-cadastro {
+	background:black !important;
 	width: 100%;
 	height:165px;
 	margin-top: 270px;
+}
+
+.img-rodape {
+
+	margin-left: 220px
+}
+
+.fale-conosco{
+
+	margin-left: 168px
+
+}
+
+.direitos {
+	margin-top: 45px;
+	margin-left: 205px;
 }
 
 }
@@ -151,22 +265,51 @@ nav.navbar-barra-navegacao{
 	body {
 
 	}
+.conteudo {
 
-	.form-cadastro{
+	width: 670px;
+	height: 970px;
+	margin-left: 15px; 
 
-	margin-top: 100px;
-	margin-left:60px;
 }
 
-	.btn-cadastrar {
+.botoes {
 
-	margin: 55px 290px;
+	margin-top: 50px;
+	margin-left: 270px;
+
 }
-	.rodape-cadastro {
-	background:#8B0000 !important;
+
+.btn-cadatrar{
+
+}
+
+.btn-cancelar{
+	margin-top: 15px;
+	margin-left: 3px;
+}
+
+.rodape-cadastro {
+	background:black !important;
 	width: 100%;
 	height:163px;
 	margin-top: 270px;
+}
+
+.img-rodape {
+
+	margin-left: 310px
+}
+
+.fale-conosco{
+
+	margin-left: 245px
+
+}
+
+.direitos {
+	margin-top: 45px;
+	margin-left: 275px;
 }
 }
 
@@ -175,23 +318,53 @@ nav.navbar-barra-navegacao{
 
 @media screen and (min-width: 992px){
 
-	.form-cadastro{
 
-	margin-top: 100px;
-	margin-left:200px;
+
+.conteudo {
+
+	width: 710px;
+	height: 620px;
+	margin-left: 75px; 
+
 }
 
-	.btn-cadastrar {
+.botoes {
 
-	margin: 55px 220px;
+	margin-top: 90px;
+	margin-left: 240px;
+
 }
 
+.btn-cadatrar{
 
-	.rodape-cadastro {
-	background:#8B0000 !important;
+}
+
+.btn-cancelar{
+	margin-top: 0px;
+	margin-left: 3px;
+}
+
+.rodape-cadastro {
+	background:black !important;
 	width: 100%;
-	height:135px;
+	height:163px;
 	margin-top: 270px;
+}
+
+.img-rodape {
+
+	margin-left: 105px
+}
+
+.fale-conosco{
+	margin-top: -55px;
+	margin-left: 155px
+
+}
+
+.direitos {
+	margin-top: 65px;
+	margin-left: 380px;
 }
 }
 
@@ -201,24 +374,51 @@ nav.navbar-barra-navegacao{
 
 @media screen and (min-width: 1200px){
 
-.form-cadastro{
+.conteudo {
 
-	margin-top: 100px;
-	margin-left:255px;
+	width: 710px;
+	height: 620px;
+	margin-left: 15em; 
+
 }
 
+.botoes {
 
-	.btn-cadastrar {
+	margin-top: 90px;
+	margin-left: 16em;
 
-	margin: 55px 255px;
 }
 
+.btn-cadatrar{
 
-	.rodape-cadastro {
-	background:#8B0000 !important;
+}
+
+.btn-cancelar{
+	margin-top: 0px;
+	margin-left: 3px;
+}
+
+.rodape-cadastro {
+	background:black !important;
 	width: 100%;
-	height:135px;
+	height:163px;
 	margin-top: 270px;
+}
+
+.img-rodape {
+
+	margin-left: 0em
+}
+
+.fale-conosco{
+	margin-top: -4em;
+	margin-left: 155px
+
+}
+
+.direitos {
+	margin-top: 65px;
+	margin-left: 380px;
 }
 
 }

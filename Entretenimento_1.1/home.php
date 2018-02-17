@@ -19,7 +19,7 @@ if(!isset($_SESSION['usuario'])){
 
 	<!------------------- Folhas de estilo ------------------------ -->
 
-	<link rel="stylesheet" type="text/css" href="css/estilo-home.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo-home.css?version12">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 
@@ -27,6 +27,8 @@ if(!isset($_SESSION['usuario'])){
   <script src="http://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs//angular.js"></script>
 
 
 
@@ -47,6 +49,7 @@ if(!isset($_SESSION['usuario'])){
  <nav class="navbar navbar-fixed-top navbar-inverse navbar-vermelha">
 
       <div class="container">
+
 
 
         <!--******************************* header ********************************-->
